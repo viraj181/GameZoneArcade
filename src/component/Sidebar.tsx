@@ -1,4 +1,4 @@
-import React, { startTransition } from "react";
+import React, { startTransition, useEffect } from "react";
 import { RxCross2 } from "react-icons/rx";
 
 function Sidebar({
@@ -14,6 +14,7 @@ function Sidebar({
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
   return (
     <>
       <div className="fixed inset-0 bg-black/50 z-[11]">

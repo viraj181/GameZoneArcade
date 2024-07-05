@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="">
+      <div className="overflow-auto">
 
       <FirstPage />
       <SecondPage />
