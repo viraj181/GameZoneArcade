@@ -16,11 +16,11 @@ const Navbar = () => {
 
   const showNavbar = () => {
     setShowMenu(true);
-    if (showMenu) {
-      document.body.style.overflow = "unset";
-    } else {
-      document.body.style.overflow = "hidden";
-    }
+    // if (showMenu) {
+    //   document.body.style.overflow = "unset";
+    // } else {
+    //   document.body.style.overflow = "hidden";
+    // }
   };
 
   return (
